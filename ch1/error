@@ -1,0 +1,6 @@
+<F4>This is TeX, Version 3.1415926 (TeX Live 2012/dev/Arch Linux)
+(./ex5.tex
+! Undefined control sequence.
+l.1 \documentclass
+                  [a4paper,11pt]{article}
+
