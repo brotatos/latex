@@ -3,7 +3,12 @@ latex
 
 Learning latex using lshort.pdf
 
-Progress
-==
+physics
+--
+Outlines of AP Physics C: Mechanics and E&M.
 
-Page 54/171
+Currently working on chapter 2: motion in one dimension.
+
+Progress
+--
+Decided to learn by doing instead of reading lshort.pdf
