@@ -1,17 +1,18 @@
 \documentclass[11pt]{article}
+\usepackage{tabularx}
 
 \begin{document}
 
 \begin{table}
-	\begin{tabular}{l|ll}
+    \begin{tabularx}{\textwidth}{l |X l}
 		Name & Definition & Equations \\
-		Position & location of a particle with \slash respect to a chosen refernece point (origin) & \\
+		Position & location of a particle with  respect to a chosen reference point (origin) & \\
 		Displacement & change in position over time interval & $ \Delta x=x_{f} - x_{i} $ \\
-		Distance & length of particle followed by a prticle & \\
+		Distance & length of particle followed by a particle & \\
 		Vector quantity & requiring both direction and magnitude & 5m north \\
 		Scalar quantity & requiring only magnitude & 5m \\
-		Average Velocity & displacement over time interval & $ v_{x} = \frac{ \Delta x}{ \Delta t } $ \\
-	\end{tabular}
+        Average Velocity & displacement over time interval & $ v_{x} = \frac{ \Delta x}{ \Delta t } $ \\
+	\end{tabularx}
 \end{table}
 
 \end{document}
