@@ -14,6 +14,6 @@ physics
 -------
 Outlines of AP Physics C: Mechanics and E&M.
 
-`Snapshot <http://ompldr.org/vZmZtNg>`
+`Snapshot <http://ompldr.org/vZmZtNg>`_.
 
 Currently working on chapter 3: vectors.
