@@ -14,4 +14,4 @@ physics
 -------
 Outlines of AP Physics C: Mechanics and E&M.
 
-Currently working on chapter 2: motion in one dimension.
+Currently working on chapter 3: vectors.
