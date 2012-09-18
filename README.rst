@@ -14,7 +14,6 @@ physics
 -------
 Outlines of AP Physics C: Mechanics and E&M.
 
-Snapshot is old. Ompldr is down.
-`Snapshot <http://ompldr.org/vZmZtNg>`_.
+`Snapshot <http://ompldr.org/vZmpqcg> `.
 
 Currently working on chapter 4: motion in two dimensions.
