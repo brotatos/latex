@@ -1,5 +1,4 @@
 \documentclass[11pt]{article}
-\usepackage{utf8}[inputenc]
 \usepackage{tabularx}
 \usepackage[a4paper,landscape]{geometry}
 \usepackage{bigstrut}
@@ -44,9 +43,55 @@
 
 \section{Motion in Two Dimensions}
 \begin{tabularx}{\textwidth}{l| X l}
-    Name & Definition & Equations / Examples \\ \hline
+    Name                     & Definition                                                                                             & Equations / Examples \\ \hline
+    Uniform Circular Motion  & object moving in circular path with constant speed $ v $                                               & \\ \hline
+    Centripetal Acceleration & where the acceleration vector is always perpendicular to the path and always points towards the center & $ a_{c} $ or $  a_{r} =\frac{v^2}{r} $ \bigstrut \\ \hline
+    Period                   & time required for one complete revolution                                                              & $ T = \frac{2\pi r}{v} $ \bigstrut \\ \hline
+    Tangential Acceleration  & causes change in speed of particle                                                                     & $ a_{t} = \frac{d|v|}{dt} $ \\*                            &  & $ a_{r} = -a_{c} = \frac{-v^2}{r} $ \\* &  & $ a = a_{t} + a_{r} $ \bigstrut \\ \hline
+    Relative Velocity        & Velocity in reference to one perspective                                                               & \\  \hline
+    Relative Acceleration    & Acceleration in reference to one perspective                                                           & \\ \hline
 \end{tabularx}
 
+\section{The Laws of Motion}
+\begin{tabularx}{\textwidth}{l| X l}
+    Name & Definition & Equations / Examples \\ \hline
+    Net Force & Vector sum of all forces acting on an object & $ \sum{F} $ \bigstrut \\ \hline
+    Equlibrium & & $ \sum{F} = 0 $ \bigstrut \\ \hline
+    Netwon's Laws of Motion: && \\* First & When no force acts on an object, the acceleration is 0. & \\* Second & Acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass. & $ \sum{F} = ma $ \\* Third & Every force has an equal but opposite force (action/reaction) & $ F = -F $ \\ \hline
+    Inertia & tendency of an object to resist any attempt to change its velocity & \\ \hline
+    Gravitational Force & attractive force exterted by earth & $ F_{g} = mg $ \bigstrut \\ \hline
+    Normal Force & the reaction force of $ F_{g} $; perpendicular to $ F_{g} $ & $ F_{g} = -F_{N} $ \bigstrut \\ \hline
+    Free-Body Diagram & depicts an object with all of the forces acting on it & \\ \hline
+    Tension & a force of pull on an object (mainly found in strings and ropes) & $ T $ \\ \hline
+    Friction & resistance to motion either on surface or in air/water & \\ \hline
+    Force of Static Friction & resistance to motion that keeps an object in place & $ f_{s} \le \mu n $  \\ \hline
+    Force of Kinetic Friction & friction force for an object in motion & $ f_{k} = \mu n $ \\ \hline
+    Coefficient of Static Friction & dimensionless constant & $ \mu_{s} $ \bigstrut \\ \hline
+    Coefficient of Kinetic Friction & dimensionless constant (generally less than $ \mu_{s} $ & $ \mu{k} $ \bigstrut \\ \hline
+\end{tabularx}
+
+\section{Circular Motion and Other Applications of Newton's Laws}
+\begin{tabularx}{\textwidth}{l| X l}
+    Name & Definition & Equations / Examples \\ \hline
+         & & $ \sum{F} = ma_{c} = m\frac{v^2}{r} $ \\ \hline
+\end{tabularx}
+
+\section{Energy and Energy Transfer}
+\begin{tabularx}{\textwidth}{l| X l}
+    Name & Definition & Equations / Examples \\ \hline
+    Work & done on a system by an agent exerting a constant force & $ W \equiv F\Delta{r}cos(\theta) $ \\* & an energy transfer between a system and agent & $ W \equiv F\Delta{x} $ \\* & & Varying force: $ W = \int_{x_{i}}^{x_{f}} F_{x}dx $ \bigstrut \\ \hline 
+    Power & time rate of energy transfer & $ P \equiv \frac{W}{\Delta t} = \frac{dW}{dt} = F \cdot \frac{dr}{dt} = F \cdot v $ \bigstrut \\ \hline
+\end{tabularx}
+
+\section{Potential Energy}
+\begin{tabularx}{\textwidth}{l| X l}
+    Name & Definition & Equations / Examples \\ \hline
+    Potential Energy & energy possessed by virtue of position relative to others & $ U $ \\ \hline
+    Gravitational Potential Energy & potential to be pushed around by a force & $ U_{g} \equiv mgy $ \\* & & $ W = \Delta U_{g} $ \\ \hline
+    Conservation of Mechanical Energy & no energy transfer occurs &  $ E_{mech} = K + U $ \\*  (in an isolated system) &  sum of kinetic and potential energies remain constant & $ E_{f} = E_{i} $ \bigstrut \\ \hline
+    Elastic Potential Energy & potential energy of springs & $ U_{s} \equiv \frac{1}{2}kx^2 $ \bigstrut \\ \hline
+    Conservative Forces & force where only initial and final states matter (energy is conserved) & $ W_{c} = U_{f} - U_{i} = \Delta U $ \bigstrut \\ \hline
+\end{tabularx}
 
 \end{document}
 
