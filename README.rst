@@ -2,18 +2,12 @@
 latex
 =====
 
-Learning latex using lshort.pdf
-
---------
-progress
---------
-Decided to learn by doing instead of reading lshort.pdf
+Several designs I reference when creating new documents.
 
 -------
 physics
 -------
 Outlines of AP Physics C: Mechanics and E&M.
 
-`Snapshot <http://ompldr.org/vZmpqcg>`_.
 
-Currently working on chapter 4: motion in two dimensions.
+Currently working on "Potential Energy".
